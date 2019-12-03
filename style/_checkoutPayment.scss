@@ -1,0 +1,194 @@
+.checkout-payment{
+    .container-fluid{
+        .checkout-payment-header{
+            padding: 20px 0;
+            .checkout-payment-link{
+                position: relative;
+                @include small-text();
+                color: $large-color;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    top: 11px;
+                    right: -16px;
+                    width: 10px;
+                    height: 1px;
+                    background: #828282;
+                }
+            }
+            .checkout-payment-text{
+                padding-left: 20px;
+                @include small-text();
+            }
+        }
+        .basket-title{
+
+        }
+        .basket-text{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 28px;
+            /* identical to box height, or 156% */
+            color: #000000;
+        }
+        .basket-img{
+            margin-right: 14px;
+            width: 90px;
+            border-radius: 8px;
+        }
+        .basket-description{
+            margin: 0;
+            line-height: 18px;
+        }
+        .basket-description-list{
+            margin: 0;
+        }
+        .basket-description-item{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 16px;
+            /* identical to box height */
+            color: #000000;
+        }
+        .servings{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 2;
+            /* identical to box height */
+            color: #000000;
+        }
+        .basket-deleted{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 12px;
+            /* identical to box height */
+            /* This red */
+            color: #ED1C24;
+        }
+        .information{
+            margin-bottom: 38px;
+            .information-list{
+                .information-text{
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 18px;
+                    /* identical to box height, or 129% */
+                    /* Gray 3 */
+                    color: #828282;
+                }
+                .quantity{
+                    .quantity-block{
+                        // padding: 8px 20px;
+                        border: 1px solid #8F8F8F;
+                        box-sizing: border-box;
+                        border-radius: 8px;
+                        cursor: pointer;
+                        .quantity-item{
+                            padding: 0px 14px;
+                            /* border-radius: 0px; */
+                            /* border: 1px solid #8F8F8F; */
+                            border-left: 1px solid #8F8F8F;
+                            border-left: 1px solid #8F8F8F;
+                            border-right: 1px solid #8F8F8F;
+                        }
+                    }
+                }
+            }
+        }
+
+        .basket-form{
+            padding: 24px;
+            background: #F8F8F8;
+            width: 24rem;
+            border-radius: 8px;
+            .basket-form-title{
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 28px;
+                /* identical to box height, or 117% */
+                color: #000000;
+            }
+            .basket-form-subtitle{
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 18px;
+                line-height: 28px;
+                /* identical to box height, or 156% */
+                color: #000000;
+            }
+            .basket-btn{
+                border: 1px solid #BDBDBD;
+                border-radius: 0px 4px 4px 0px;
+                background: #fff;
+            }
+            .basket-form-block{
+                background: #FFFFFF;
+                border-radius: 8px;
+                .basket-form-span{
+                    display: block;
+                    width: 24px;
+                    height: 24px;
+                    background: #ED1C24;
+                    border-radius: 50%;
+                    text-align: center;
+                    color: #ffffff;
+                }
+            }
+            .basket-label{
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+                /* identical to box height, or 129% */
+                color: #000000;
+            }
+            .basket-form-btn{
+                // margin-top: 20px;
+                margin: 20px auto;
+                padding: 15px 104px;
+                background: #ED1C24;
+                border-radius: 8px;
+                border: 0px;
+                display: block;
+                font-family: Inter;
+                font-style: normal;
+                font-size: 16px;
+                line-height: 22px;
+                text-align: center;
+                color: #FFFFFF;
+
+            }
+            .basket-form-footer{
+                border-top: 2px solid #000000;
+                padding-top: 10px;
+                .basket-form-footer-span{
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 24px;
+                    line-height: 28px;
+                    /* identical to box height, or 117% */
+                    color: #000000;
+                }
+            }
+            .basket-input{
+                background: #FFFFFF;
+                border: 1px solid #E0E0E0;
+            }
+        }
+    }
+}

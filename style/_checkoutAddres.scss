@@ -1,0 +1,31 @@
+
+//checkoutAddres
+
+.checkoutAddres{
+    overflow: hidden;
+    .container-fluid{
+        .checkoutAddres-header{
+            .checkoutAddres-link{
+
+            }
+            .checkoutAddres-text{
+
+            }
+        }
+        .checkoutAddres-input{
+            background: #FFFFFF;
+            /* Gray 4 */
+            
+            border: 1px solid #BDBDBD;
+            border-radius: 4px;
+        }
+        .checkoutAddres-area{
+            width: 100%;
+            background: #FFFFFF;
+            /* Gray 4 */
+            
+            border: 1px solid #BDBDBD;
+            border-radius: 4px;
+        }
+    }
+}

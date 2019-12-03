@@ -1,0 +1,68 @@
+
+//payment
+
+.payment{
+    .container-fluid{
+        .payment-header{
+            padding: 20px 0;
+            .payment-link{
+                position: relative;
+                @include small-text();
+                color: $large-color;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    top: 11px;
+                    right: -16px;
+                    width: 10px;
+                    height: 1px;
+                    background: #828282;
+                }
+            }
+            .payment-text{
+                padding-left: 20px;
+                @include small-text();
+            }
+        }
+        .payment-title{
+
+        }
+
+        .payment-subtitle{
+
+        }
+        .payment-list{
+            display: flex;
+            justify-content: space-between;
+            flex-flow: wrap;
+            .payment-item{
+                width: 27rem;
+                background: #c1c1c1;
+                padding: 12px;
+                margin: 10px 0;
+                background: #FFF4F5;
+                border-radius: 8px;
+                list-style: none;
+            }
+        }
+        .payment-scheme{
+            .payment-scheme-list{
+                .payment-scheme-item{
+                    position: relative;
+
+
+
+                    text-align: center;
+                    width: 25px;
+                    border-radius: 50%;
+                    height: 25px;
+                    border: 1px solid red;
+                    color: red;
+
+                }
+
+
+            }
+        }
+    }
+}

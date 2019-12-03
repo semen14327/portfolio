@@ -1,0 +1,209 @@
+
+
+// personalOrders
+
+.personal-orders{
+    overflow: hidden;
+    .container-fluid{
+        .personal-header{
+            padding: 20px 0;
+            .personal-header-link{
+                position: relative;
+                @include small-text();
+                color: $large-color;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    top: 11px;
+                    right: -16px;
+                    width: 10px;
+                    height: 1px;
+                    background: #828282;
+                }
+            }
+            .personal-header-text{
+                padding-left: 20px;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                color: #828282;
+            }
+        }
+        .personal-orders-title{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 36px;
+        }
+        .personal-orders-list{
+
+            .personal-orders-item{
+
+                .personal-orders-link{
+                    padding-right: 24px;
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    color: #000000;
+                }
+            }
+        }
+        .orders-blocks{
+            display: flex;
+            flex-direction: column;
+            flex-flow: wrap;
+            .order-block{
+                padding: 24px 20px;
+                margin: 20px 0;
+                background: #F8F8F8;
+                border-radius: 8px;
+                width: 904px;
+                .order-block-header{
+                    display: flex;
+                    padding-bottom: 20px;
+                    .order-block-title{
+                        margin-bottom: 0;
+                        font-family: Inter;
+                        font-style: normal;
+                        font-weight: 900;
+                        font-size: 24px;
+                        color: #000000;
+                    }
+                }
+                .order-block-list{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-flow: wrap;
+                    .order-block-item{
+                        padding-right: 5px;
+                        padding-bottom: 5px;
+                        .order-block-img{
+                            width: 80px;
+                            border-radius: 8px;
+                        }
+                    }
+                }
+                .order-block-footer{
+                    display: flex;
+                    // justify-content: space-between;
+                    .order-block-left{
+                        padding-right: 40px;
+                        .left-text{
+                            font-family: Inter;
+                            font-style: normal;
+                            font-weight: 900;
+                            font-size: 18px;
+                            color: #000000;
+                        }
+                        .amount{
+                            font-family: Inter;
+                            font-style: normal;
+                            font-weight: 900;
+                            font-size: 24px;
+                            color: #000000;
+                        }
+                    }
+                    .order-block-right{
+                        .right-text{
+                            font-family: Inter;
+                            font-style: normal;
+                            font-weight: 900;
+                            font-size: 18px;
+                            color: #000000;
+                        }
+                        .amount{
+                            font-family: Inter;
+                            font-style: normal;
+                            font-weight: 900;
+                            font-size: 24px;
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px){
+    
+.personal-orders{
+    
+    .container-fluid{
+        .personal-header{
+     
+            .personal-header-link{
+   
+                
+            }
+            .personal-header-text{
+  
+            }
+        }
+        .personal-orders-title{
+
+        }
+        .personal-orders-list{
+
+            .personal-orders-item{
+                
+                .personal-orders-link{
+                    font-size: 14px;
+                }
+            }
+            .waiting-list{
+                display: none;
+            }
+        }
+        .orders-blocks{
+ 
+            .order-block{
+                padding: 24px 0px;
+                .order-block-header{
+
+                    .order-block-title{
+
+                    }
+                }
+                .order-block-list{
+   
+                    .order-block-item{
+     
+                        .order-block-img{
+ 
+                        }
+                    }
+                }
+                .order-block-footer{
+ 
+                    .order-block-left{
+ 
+                        .left-text{
+
+                        }
+                        .amount{
+
+                        }
+                    }
+                    .order-block-right{
+                        display: none;
+                        .right-text{
+
+                        }
+                        .amount{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+}
+

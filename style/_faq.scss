@@ -1,0 +1,56 @@
+
+
+
+// faq
+.faq{
+    overflow: hidden;
+    .container-fluid{
+        .faq-header{
+            padding: 20px 0;
+            .faq-header-link{
+                position: relative;
+                @include small-text();
+                color: $large-color;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    top: 11px;
+                    right: -16px;
+                    width: 10px;
+                    height: 1px;
+                    background: #828282;
+                }
+            }
+            .faq-header-text{
+                padding-left: 20px;
+                @include small-text();
+            }
+        }
+        .faq-title{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 36px;
+            /* line-height: 44px; */
+            color: #000000;
+        }
+        .faq-blocks{
+            .faq-block{
+                .block-title{
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    /* line-height: 22px; */
+                    color: #000000;
+                    background: #FFF4F5;
+                    line-height: 3;
+                    border-radius: 8px;
+                }
+                .block-text{
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,105 @@
+
+//overview
+
+.overview{
+    overflow: hidden;
+    background-image: url('../image/Bitmap.png');
+    .container-fluid{
+        .overview-header{
+            padding: 20px 0;
+            .overview-link{
+                position: relative;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                color: #ffffff;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    top: 11px;
+                    right: -16px;
+                    width: 10px;
+                    height: 1px;
+                    background: #828282;
+                }
+            }
+            .overview-text{
+                padding-left: 20px;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                color: #828282;
+            }
+        }
+        .overview-title{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 36px;
+            color: #ffffff;
+        }
+        .overview-subtitle{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 28px;
+            /* identical to box height, or 117% */
+
+
+            /* White */
+
+            color: #FFFFFF;
+        }
+        .overview-cards{
+            display: flex;
+            flex-flow: wrap;
+            justify-content: space-between;
+            .overview-video{
+
+            }
+            .other-video{
+                display: flex;
+                align-self: center;
+                flex-direction: column;
+                padding-left: 32px;
+            }
+
+            .overview-card{
+                position: relative;
+                .overview-card-img{
+                    // width: 438px;
+
+                }
+                .overview-card-text{
+                    position: absolute;
+                    /* top: 0; */
+                    bottom: -40px;
+                    left: 30px;
+                    font-family: Inter;
+                    font-style: normal;
+                    /* font-weight: bold; */
+                    font-size: 16px;
+                    line-height: 18px;
+                    padding: 22px 0px;
+                    color: #ffffff;
+                }
+
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

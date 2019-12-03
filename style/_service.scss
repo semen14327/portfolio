@@ -1,0 +1,79 @@
+// Шрифты
+@font-face{
+    font-family: 'Inter';
+    src: url('../fonts/WebFont.eot');
+    src: url('../fonts/WebFont.eot?iefix') format('eot'),
+    url('../font/Inter-Bold.woff') format('woff'),
+    url('../font/Inter-Bold.ttf') format('truetype'),
+    url('../fonts/WebFont.svg#webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face{
+    font-family: 'Inter';
+    src: url('../fonts/WebFont.eot');
+    src: url('../fonts/WebFont.eot?iefix') format('eot'),
+    url('../font/Inter-LightBETA.woff') format('woff'),
+    url('../font/Inter-LightBETA.ttf') format('truetype'),
+    url('../fonts/WebFont.svg#webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face{
+    font-family: 'Inter';
+    src: url('../fonts/WebFont.eot');
+    src: url('../fonts/WebFont.eot?iefix') format('eot'),
+    url('../font/Inter-Regular.woff') format('woff'),
+    url('../font/Inter-LightBETA.ttf') format('truetype'),
+    url('../fonts/WebFont.svg#webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+
+
+// Переменные
+$small-color: #828282;
+$large-color: #000000;
+
+
+
+
+// Миксины
+@mixin small-text {
+    font: {
+        family: Inter;
+        style: normal;
+        weight: 500;
+        size: 14px;
+    }
+    color: $small-color;
+}    
+
+@mixin medium-text {
+    font: {
+        family: Inter;
+        style: normal;
+        weight: 900;
+        size: 24px;
+    }
+    color: $large-color;
+}
+
+@mixin large-color {
+    font: {
+        family: Inter;
+        style: normal;
+        weight: 900;
+        size: 36px;
+    }
+    color: $large-color;
+}
+
+@mixin name {
+    
+}
+

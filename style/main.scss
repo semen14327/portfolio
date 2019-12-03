@@ -1,0 +1,29 @@
+@import './service';
+@import './header';
+@import './footer';
+@import './videoReviews';
+@import './reviews';
+@import './basket';
+@import './card';
+@import './categories';
+@import './checkout';
+@import './checkoutAddres';
+@import './checkoutPayment';
+@import './cheese-cakes';
+@import './faq';
+@import './favorites';
+@import './main';
+@import './overview';
+@import './payment';
+@import './personal';
+@import './personalArea';
+@import './personalOrders';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+

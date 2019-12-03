@@ -1,0 +1,242 @@
+
+//footer
+
+
+.footer {
+    overflow: hidden;
+    &::before{
+        content: '';
+        position: absolute;
+        border-top: 1px solid #E0E0E0;
+        width: 100%;
+    }
+    .container-fluid {
+        .footer-block {
+            padding: 20px 20px;
+            .footer-left {
+                width: 32rem;
+                .footer-list {
+
+                    letter-spacing: 1px;
+
+                    .footer-item {
+
+                        .footer-link {
+                            font-family: Inter;
+                            text-decoration-line: underline;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 12px;
+                            color: #828282;
+                        }
+
+                        .footer-link-title {
+                            font-family: Inter;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            text-transform: uppercase;
+                            text-decoration-line: underline;
+                            color: #333333;
+                        }
+                    }
+                }
+
+                .footer-text {
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    color: #333333;
+                }
+            }
+
+            .footer-right {
+                width: 22rem;
+                .footer-list {
+
+                    .footer-item {
+
+                        .footer-link {
+                            text-decoration-line: underline;
+                        }
+
+                        .footer-contact {
+                            font-family: Inter;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            text-transform: uppercase;
+                            text-decoration-line: underline;
+                            color: #333333;
+                        }
+
+                        .footer-applications {
+                            font-family: Inter;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            text-transform: uppercase;
+                            text-decoration-line: unset;
+                            color: #333333;
+                        }
+
+                        .footer-phone {
+                            font-family: Inter;
+                            font-style: normal;
+                            font-weight: 900;
+                            font-size: 20px;
+                            color: #000;
+                            text-decoration-line: unset;
+                        }
+
+                        .footer-free-call {
+                            font-family: Inter;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 12px;
+                            color: #828282;
+                            text-decoration-line: unset;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .footer {
+        .container-fluid {
+            .footer-block {
+
+
+                .footer-left {
+                    width: 30rem;
+                    .footer-list {
+    
+    
+                        .footer-item {
+    
+                        }
+                    }
+    
+                    .mobile-order {
+    
+                    }
+    
+                    .footer-text {
+    
+                    }
+                }
+    
+                .footer-right {
+                    width: 12rem;
+                    .footer-list {
+                        .footer-item {}
+    
+                        .social {
+    
+                        }
+    
+                        .our-applications {
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .footer {
+        .container-fluid {
+            .footer-block {
+
+
+                .footer-left {
+                    width: 30rem;
+                    .footer-list {
+    
+    
+                        .footer-item {
+    
+                        }
+                    }
+    
+                    .mobile-order {
+    
+                    }
+    
+                    .footer-text {
+    
+                    }
+                }
+    
+                .footer-right {
+                    width: 12rem;
+                    .footer-list {
+                        .footer-item {}
+    
+                        .social {
+    
+                        }
+    
+                        .our-applications {
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        .footer-block {
+            flex-direction: column-reverse;
+            
+            .footer-left {
+                width: auto!important;
+                flex-direction: column;
+                
+                .footer-list {
+                    display: flex;
+                    flex-flow: wrap;
+
+                    .footer-item {
+                        padding-right: 10px;
+                    }
+                }
+
+                .mobile-order {
+                    order: 1;
+                }
+
+                .footer-text {
+                    order: 2;
+                }
+            }
+
+            .footer-right {
+                width: auto!important;
+                flex-direction: column;
+                
+                .footer-list {
+                    .footer-item {}
+
+                    .social {
+                        padding-top: 12px;
+                    }
+
+                    .our-applications {
+                        padding-top: 24px;
+                        padding-bottom: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

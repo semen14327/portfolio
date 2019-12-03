@@ -1,0 +1,66 @@
+
+//favorites
+
+.favorites{
+    overflow: hidden;
+    .container-fluid{
+        .favorites-header{
+            padding: 20px 0;
+            .favorites-header-link{
+                position: relative;
+                @include small-text();
+                color: $large-color;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    top: 11px;
+                    right: -16px;
+                    width: 10px;
+                    height: 1px;
+                    background: #828282;
+                }
+            }
+            .favorites-header-text{
+                padding-left: 20px;
+                @include small-text();
+            }
+        }
+        .favorites-title{
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 36px;
+            /* line-height: 44px; */
+            color: #000000;
+        }
+        .favorites-cards{
+            display: flex;
+            flex-flow: wrap;
+            justify-content: space-between;
+            .block-card{
+                position: relative;
+                padding: 10px 5px;
+                .block-card-span{
+                    position: absolute;
+                    right: 16px;
+                    top: 16px;
+                }
+                .personal-card-area{
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-pack: 18px;
+                    -ms-flex-pack: 18px;
+                    justify-content: 18px;
+                    -webkit-box-pack: justify;
+                    -ms-flex-pack: justify;
+                    justify-content: space-between;
+                    position: absolute;
+                    bottom: 112px;
+                    width: 100%;
+                }
+            }
+        }
+        
+    }
+}
